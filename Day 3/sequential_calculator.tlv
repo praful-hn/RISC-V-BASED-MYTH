@@ -3,10 +3,6 @@
 \SV
    m5_makerchip_module
 \TLV
-   // Define inputs that were missing
-   $rand2[3:0];
-   $op[1:0];
-
    |calc
       @0
          $reset = *reset;
